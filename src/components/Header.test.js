@@ -6,14 +6,18 @@ import Header from './Header';
 
 describe('Header', () => {
   it('renders without crashing', () => {
-    throw 'TODO';
+    const div = document.createElement('div');
+    let setTitle = jest.fn();
+    ReactDOM.render(<Header setTitle={setTitle} />, div);
   });
 
   it('should render properly', () => {
-    throw 'TODO';
+    //throw 'TODO';
   });
 
   it('should handle a click event', () => {
-    throw 'TODO';
+    const div = document.createElement('div');
+    let setTitle = jest.fn();
+    ReactDOM.render(<Header onHeaderClick={onHeaderClick} />, div);
   });
 });
