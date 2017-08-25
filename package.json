@@ -2,10 +2,8 @@
   "name": "react-jdc-training",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "8.1.4"
-  },
   "dependencies": {
+    "dotenv": "^4.0.0",
     "express": "^4.15.4",
     "heroku-node-settings": "^1.1.0",
     "node-sass": "^4.5.3",
@@ -13,8 +11,8 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-redux": "^5.0.6",
-    "react-router": "^4.1.2",
-    "react-router-dom": "^4.1.2",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.0",
     "react-scripts": "1.0.11",
     "redux": "^3.7.2",
     "redux-logger": "^3.0.6",
@@ -30,14 +28,16 @@
     "eject": "react-scripts eject",
     "build-css": "./node_modules/.bin/node-sass src/ -o src/",
     "watch-css": "npm run build-css && node-sass src/ -o src/ --watch --recursive",
-    "develop-react": "react-scripts start",
-    "precommit": "lint-staged"
+    "develop-react": "react-scripts start"
+  },
+  "engines": {
+    "node": "8.4.0"
   },
   "devDependencies": {
     "enzyme": "^2.9.1",
     "enzyme-to-json": "^1.5.1",
     "husky": "^0.14.3",
-    "lint-staged": "^4.0.3",
+    "lint-staged": "^4.0.4",
     "prettier": "^1.5.3",
     "react-test-renderer": "^15.6.1",
     "redux-devtools-extension": "^2.13.2"
