@@ -3,6 +3,7 @@ import logo from '../logo.svg';
 
 export default props => {
   const { title, onHeaderClick } = props;
+
   return (
     <div className="App-header">
       <a href="/" onClick={onHeaderClick} id="logo">

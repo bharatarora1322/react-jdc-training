@@ -12,7 +12,7 @@ describe('Header', () => {
   });
 
   it('should render properly', () => {
-    //throw 'TODO';
+    throw 'TODO';
   });
 
   it('should handle a click event', () => {
